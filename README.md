@@ -4,17 +4,18 @@ A sample Flutter project to show case user login and signup process with Firebas
 
 ## Features
 ---
-*Firebase Auth integration
-*Login with firebase 
-*Login with Email and password
+<!-- UL -->
+* Firebase Auth integration
+* Login with firebase 
+* Login with Email and password
 
 ## Fully Functional screens
 ---
-*Login Screen
-*SignUp Screen
-*Welcome Screen
+* Login Screen
+* SignUp Screen
+* Welcome Screen
 
 ## Other Advantages
 ---
-*Beautiful UI
-*modularized code
+* Beautiful UI
+* modularized code
