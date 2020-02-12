@@ -1,6 +1,6 @@
 # Flutter Login-Signup App Demo by using firebase
 
-A sample app to showcase login-signup app using firebase.
+A sample Flutter project to show case user login and signup process with Firebase authentication
 
 ## Getting Started
 
