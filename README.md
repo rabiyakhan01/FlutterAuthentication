@@ -4,7 +4,7 @@ A sample Flutter project to show case user login and signup process with Firebas
 
 ## Features
 
-Firebase Auth integration
+-Firebase Auth integration
 
 A few resources to get you started if this is your first Flutter project:
 
