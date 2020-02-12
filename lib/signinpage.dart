@@ -22,12 +22,6 @@ class _LoginPageState extends State<LoginPage> {
         centerTitle:true,
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/nature.png"),
-            fit: BoxFit.fill,
-          ),
-        ),
         padding: EdgeInsets.symmetric(vertical: 0.0,horizontal: 50.0),
         child: Form(
           key: _formKey,
@@ -35,11 +29,6 @@ class _LoginPageState extends State<LoginPage> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               TextFormField(
-                cursorColor: Colors.white,
-                style: TextStyle(
-                  color:Colors.white,
-                ),
-                
                 validator:(input) {
                   if(input.isEmpty){
                     return 'Email cant be empty';
@@ -54,10 +43,6 @@ class _LoginPageState extends State<LoginPage> {
               ) ,
               SizedBox(height: 5.0),
               TextFormField(
-                cursorColor: Colors.white,
-                style: TextStyle(
-                  color:Colors.white,
-                ),
                 validator:(input) {
                   if(input.length < 6){
                     return 'your password must be atleast 6 characters';
