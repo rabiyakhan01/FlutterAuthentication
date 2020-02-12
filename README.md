@@ -3,7 +3,7 @@
 A sample Flutter project to show case user login and signup process with Firebase authentication
 
 ## Features
-
+---
 -Firebase Auth integration
 -Login with firebase 
 -Login with Email and password
