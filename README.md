@@ -1,6 +1,6 @@
-# reg
+# Flutter Login-Signup App Demo by using firebase
 
-A new Flutter project.
+A sample app to showcase login-signup app using firebase.
 
 ## Getting Started
 
