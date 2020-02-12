@@ -10,7 +10,7 @@ class SignUp extends StatefulWidget {
 
 class _SignUpState extends State<SignUp> {
 
- String _email, _password,_username,_mobilenumber;
+ String _email, _password;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   @override
@@ -33,23 +33,6 @@ class _SignUpState extends State<SignUp> {
           key: _formKey,
           child: Column(
             children: <Widget>[
-              TextFormField(
-                cursorColor: Colors.white,
-                style: TextStyle(
-                  color:Colors.white,
-                ),
-                validator:(input) {
-                  if(input.isEmpty){
-                    return 'username cant be empty';
-                  }
-                },
-                onSaved:(input) => _username = input ,
-                decoration: InputDecoration(
-                  labelText:'username',
-                  labelStyle: TextStyle(color:Colors.deepOrange),
-                ),
-              ) ,
-              SizedBox(height: 5.0),
               TextFormField(
                 cursorColor: Colors.white,
                 style: TextStyle(
@@ -83,23 +66,6 @@ class _SignUpState extends State<SignUp> {
                   labelStyle: TextStyle(color:Colors.deepOrange),
                 ),
                 obscureText: true,
-              ) ,
-              SizedBox(height: 5.0),
-              TextFormField(
-                cursorColor: Colors.white,
-                style: TextStyle(
-                  color:Colors.white,
-                ),
-                validator:(input) {
-                  if(input.isEmpty){
-                    return 'mobilenumber cant be empty';
-                  }
-                },
-                onSaved:(input) => _mobilenumber = input ,
-                decoration: InputDecoration(
-                  labelText:'mobile-number',
-                  labelStyle: TextStyle(color:Colors.deepOrange),
-                ),
               ) ,
               RaisedButton(
                 onPressed:signUp,
