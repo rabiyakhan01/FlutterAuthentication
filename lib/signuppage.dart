@@ -22,22 +22,12 @@ class _SignUpState extends State<SignUp> {
         elevation: 0.0,
       ),
       body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/nature.png"),
-            fit: BoxFit.fill,
-          ),
-        ),
         padding: EdgeInsets.symmetric(vertical: 0.0,horizontal: 50.0),
         child: Form(
           key: _formKey,
           child: Column(
             children: <Widget>[
               TextFormField(
-                cursorColor: Colors.white,
-                style: TextStyle(
-                  color:Colors.white,
-                ),
                 validator:(input) {
                   if(input.isEmpty){
                     return 'Email cant be empty';
@@ -51,10 +41,6 @@ class _SignUpState extends State<SignUp> {
               ) ,
               SizedBox(height: 5.0),
               TextFormField(
-                cursorColor: Colors.white,
-                style: TextStyle(
-                  color:Colors.white,
-                ),
                 validator:(input) {
                   if(input.length < 6){
                     return 'your password must be atleast 6 characters';
